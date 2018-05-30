@@ -1,4 +1,4 @@
-# fontawesome-webpack-treeshaking
+# fontawesome-webpack-treeshaking - babel-minify
 
 ## Install
 ------------

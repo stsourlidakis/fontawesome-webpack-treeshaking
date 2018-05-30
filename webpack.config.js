@@ -1,3 +1,4 @@
+const BabelMinifyPlugin = require('babel-minify-webpack-plugin');
 const path = require('path');
 
 module.exports = {
@@ -10,5 +11,10 @@ module.exports = {
 		alias: {
 			'@fortawesome/fontawesome-free-solid$': '@fortawesome/fontawesome-free-solid/shakable.es.js'
 		}
+	},
+	optimization: {
+		minimizer: [
+			new BabelMinifyPlugin()
+		]
 	}
 };

@@ -18,6 +18,7 @@
   "devDependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "babel-minify-webpack-plugin": "^0.3.1",
     "webpack": "^4.10.1",
     "webpack-cli": "^2.1.4"
   }
